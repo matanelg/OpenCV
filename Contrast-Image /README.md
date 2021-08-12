@@ -54,7 +54,7 @@ plt.title('Gray Scale Image Distribution')
 
 - We can see the distribution expand, the pick around 170 shift right around 230 which give more bright pixels in the new image.
 - We can see the slopes are more moderate all over the image.
-​
+
 ```python
 plt.figure(num=4,figsize=(12,6))
 plt.imshow(eq_gorilla,cmap='gray')
