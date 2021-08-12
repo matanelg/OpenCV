@@ -2,7 +2,7 @@
 
 ## Summary
   
-Template Matching with open cv example.
+Template Matching with open cv example.<br />
 Detect basketball in an image. 
 
 ```python
@@ -17,7 +17,7 @@ plt.figure(1)
 plt.imshow(full)
 ```
 <p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Template-Matching/files/full.png">
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Template-Matching/files/full.png" width="100%" height="100%" />
 </p>
 
 ```python
@@ -41,7 +41,7 @@ plt.figure(3)
 plt.imshow(result)
 ```
 <p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Template-Matching/files/result.png">
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Template-Matching/files/result.png" width="100%" height="100%" />
 </p>
 
 ```python
@@ -49,7 +49,7 @@ plt.figure(4)
 plt.imshow(full_copy)
 ```
 ​<p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Template-Matching/files/full_copy.png.png">
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Template-Matching/files/full_copy.png" width="100%" height="100%" />
 </p>
 
 
