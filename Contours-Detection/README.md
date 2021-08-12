@@ -22,8 +22,8 @@ plt.imshow(img,cmap='gray')
 contours,hierarchy = cv2.findContours(img, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
 external_contours = np.ones(img.shape)
 for i in range(len(contours)):
-if hierarchy[0,i,3]==-1:
-    cv2.drawContours(external_contours, contours, i, 255,-1)
+	if hierarchy[0,i,3]==-1:
+    		cv2.drawContours(external_contours, contours, i, 255,-1)
 
 plt.figure(2)
 plt.imshow(external_contours,cmap='gray')
@@ -35,8 +35,8 @@ plt.imshow(external_contours,cmap='gray')
 ```python
 internal_contours = np.ones(img.shape)
 for i in range(len(contours)):
-if hierarchy[0,i,3]!=-1:
-    cv2.drawContours(internal_contours, contours, i, 255,-1)
+	if hierarchy[0,i,3]!=-1:
+    		cv2.drawContours(internal_contours, contours, i, 255,-1)
 
 plt.figure(3)
 plt.imshow(internal_contours,cmap='gray')
