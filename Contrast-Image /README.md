@@ -16,7 +16,7 @@ plt.imshow(gorilla_grey,cmap='gray')
 plt.title('Gorilla Gray-Scaled Image')
 ```
 <p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/gorilla_gray.png">
+  <img src="http://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/gorilla_gray.png">
 </p>
 
 ```python
