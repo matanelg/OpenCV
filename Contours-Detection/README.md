@@ -28,7 +28,7 @@ for i in range(len(contours)):
 plt.figure(2)
 plt.imshow(external_contours,cmap='gray')
 ```
-​<p align="center">
+<p align="center">
   <img src="https://github.com/matanelg/OpenCV/blob/master/Contours-Detection/files/02.png" width="50%" height="50%" />
 </p>
 ​
