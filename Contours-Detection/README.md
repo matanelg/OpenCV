@@ -17,7 +17,7 @@ plt.imshow(img,cmap='gray')
 <p align="center">
   <img src="https://github.com/matanelg/OpenCV/blob/master/Contours-Detection/files/01.png" width="50%" height="50%" />
 </p>
-​
+
 ```python
 contours,hierarchy = cv2.findContours(img, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
 external_contours = np.ones(img.shape)
@@ -31,7 +31,7 @@ plt.imshow(external_contours,cmap='gray')
 <p align="center">
   <img src="https://github.com/matanelg/OpenCV/blob/master/Contours-Detection/files/02.png" width="50%" height="50%" />
 </p>
-​
+
 ```python
 internal_contours = np.ones(img.shape)
 for i in range(len(contours)):
