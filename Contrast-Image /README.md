@@ -16,7 +16,7 @@ plt.imshow(gorilla_grey,cmap='gray')
 plt.title('Gorilla Gray-Scaled Image')
 ```
 <p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Canny-Edge-Detection/files/gorilla_gray.png">
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/gorilla_gray.png">
 </p>
 
 ```python
@@ -36,7 +36,6 @@ plt.title('Gray Scale Colors Distribution')
 - We can see the high slops in ranges 0 ~ 40 and 170~200. 
 
 Now our gold is to reduce the slops and expand the distro for receive more contrast.
-
 ```python
 eq_gorilla = cv2.equalizeHist(gorilla_grey)
 histr_eq = cv2.calcHist([eq_gorilla],[0],None,[256],[0,256]) # new distro
