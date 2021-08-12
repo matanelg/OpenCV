@@ -16,7 +16,7 @@ plt.imshow(gorilla_grey,cmap='gray')
 plt.title('Gorilla Gray-Scaled Image')
 ```
 <p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Canny-Edge-Detection/files/gorilla_gray.png" width="50%" height="50%" />
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Canny-Edge-Detection/files/gorilla_gray.png">
 </p>
 
 ```python
@@ -29,7 +29,7 @@ plt.ylabel('Frequency')
 plt.title('Gray Scale Colors Distribution')
 ```
 <p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/gorilla_distro.png" width="50%" height="50%" />
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/gorilla_distro.png">
 </p>
 
 - We can see that most pixels in the image are darker around 40.
@@ -50,7 +50,7 @@ plt.ylabel('Frequency')
 plt.title('Gray Scale Image Distribution')
 ```
 <p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/gorilla_new_distro.png" width="50%" height="50%" />
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/gorilla_new_distro.png">
 </p>
 
 - We can see the distribution expand, the pick around 170 shift right around 230 which give more bright pixels in the new image.
@@ -61,7 +61,7 @@ plt.figure(num=4,figsize=(12,6))
 plt.imshow(eq_gorilla,cmap='gray')
 ```
 ​<p align="center">
-  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/contrast_image.png" width="50%" height="50%" />
+  <img src="https://github.com/matanelg/OpenCV/blob/master/Contrast-Image/files/contrast_image.png">
 </p>
 
 
